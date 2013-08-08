@@ -10,7 +10,7 @@ public class PruefZiffer {
 			"0060013738", "0060007767", "0060004957", "0060013254" };
 
 	public static void main(String[] args) {
-		for (int i = 0; i < _gewichtungMax; i++) {
+		for (int i = 0; i <= _gewichtungMax; i++) {
 			recordMatch(fillWithZeros(i));
 		}
 
