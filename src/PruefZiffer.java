@@ -27,12 +27,11 @@ public class PruefZiffer {
 			try {
 				Thread.sleep(5000);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
 		for (int i = 0; i < _results.size(); i++) {
-			System.out.println("REEESULT: " + _results.get(i));
+			System.out.println("RESULT: " + _results.get(i));
 		}
 
 	}
