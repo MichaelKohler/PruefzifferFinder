@@ -21,7 +21,7 @@ public class PruefZiffer {
 
 	private static void recordMatch(String gewichtung) {
 		System.out.println("Checking: " + gewichtung);
-		boolean success = false;
+		boolean success = true;
 		for (int i = 0; i < _accounts.length; i++) {
 			int summe = 0;
 			for (int j = 0; j < gewichtung.length(); j++) {
